@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ftcFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ID: 17107433003"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/custom"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/resultf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="6"
+        android:hint="Result "
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/ferbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Temp in F. "
+        android:ems="6"
+        android:textAlignment="center"
+        android:layout_marginTop="140dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/resultfbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Calculate"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="145dp"
+        android:background="#0B1B1E"/>
+
+</FrameLayout>

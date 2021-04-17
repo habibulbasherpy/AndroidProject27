@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:ignore="MissingConstraints"
+        android:background="@color/btn"/>
+
+    <Button
+        android:id="@+id/bmibtn"
+        android:layout_width="97dp"
+        android:layout_height="58dp"
+        android:textColor="#D8E833"
+        android:layout_alignParentBottom="true"
+        android:text="@string/bmi"
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <Button
+        android:id="@+id/fcbtn"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/fahrenheit_to_celsius"
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="50dp"  />
+
+    <Button
+        android:id="@+id/cfbtn"
+        android:layout_width="131dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/celsius_to_fahrenheit"
+        tools:ignore="MissingConstraints"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="53dp"
+        android:layout_marginLeft="50dp" />
+
+
+</RelativeLayout>
